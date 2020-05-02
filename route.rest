@@ -1,0 +1,30 @@
+GET HTTP://localhost:3000/users
+
+
+###
+
+
+GET HTTP://localhost:3000/users/5eadaf1cf83a213110a891c6
+
+
+####
+
+POST HTTP://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Philippe Bonneville",
+    "boughtTicketsToShow": "Intersection XX"
+}
+
+####
+
+DELETE HTTP://localhost:3000/users/5eadaacb5bb3853f809ad6f1
+
+####
+PATCH HTTP://localhost:3000/users/5eadb0079e40201458022d30
+Content-Type: application/json
+
+{
+    "name": "Anthony Aoun"
+}
